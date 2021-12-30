@@ -1,0 +1,44 @@
+{% load static %}
+<div class="row ind-project">
+    <div class="col">
+
+    </div>
+    <div class="col-12 col-md-9 col-lg-11">
+        <div class="card">
+            <img class="d-lg-none card-img-top" src="{% static 'port_app/images/portfolio_card_img.png' %}"
+                        alt="Card image cap">
+           
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="d-none d-lg-block col-md-8 col-lg-5">
+                        <img class="port-image" src="{% static 'port_app/images/portfolio_card_img.png' %}"
+                        alt="">
+                    </div>
+                    <div class=" col-lg-4 col-md-6 ">
+                        <p class="h5">{{ title }}</p>
+                        <p class="card-text lead">{{ description }}</p>
+                    </div>
+                    <div class=" col-md-6 col-lg-3 ">
+                        <p class=card-text>Technologies used:
+                        <ul class="list-group ">
+                            <li class="list-group-item">{{ tech_1 }}</li>
+                            <li class="list-group-item">{{ tech_2 }}</li>
+                            
+
+
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <br>
+                            <small class="text-muted">{{ year }}</small>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>

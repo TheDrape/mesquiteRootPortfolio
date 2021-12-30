@@ -1,0 +1,64 @@
+{% extends 'port_app/main.html' %}
+
+
+{% block content %}
+
+
+{% load static %}
+{% load component_tags %}
+
+<!-- <div class="container"> -->
+<div class="row port-container ">
+    <div class="col-md-3 d-none d-md-block ">
+        <img class="project-logo" src="{% static 'images/MesquiteRootLogo-01.png' %}" alt="logo">
+    </div>
+    <div class="col-sm-12 col-md-9 h-100 overflow-auto">
+        
+        <!-- {% component "project_card" title="My Project" description="My cool app" tech_1="Python" tech_2="Django"  %} -->
+        
+        <!-- First project -->
+        {% include 'port_app/projectCards/farmCard.html' %}
+        <!-- end First Project -->
+
+        <!-- Second project -->
+        {% include 'port_app/projectCards/therapyCard.html' %}
+        <!-- end Second Project -->
+
+        <!-- Third project -->
+        {% include 'port_app/projectCards/purpleCard.html' %}
+        <!-- end Third Project -->
+
+        <!-- Fourth project -->
+        {% include 'port_app/projectCards/phpMotorsCard.html' %}
+        <!-- end Fourth Project -->
+
+        <!-- Fifth project -->
+        {% include 'port_app/projectCards/cagesCard.html' %}
+        <!-- end Fifth Project -->
+
+        <!-- Sixth project -->
+        {% include 'port_app/projectCards/chloroplethCard.html' %}
+        <!-- end Sixth Project -->
+
+        <!-- Sixth project -->
+        {% include 'port_app/projectCards/portfolioCard.html' %}
+        <!-- end Sixth Project -->
+        
+
+
+
+        <!-- end -->
+    </div>
+</div>
+
+<!-- </div> -->
+<!-- </main> -->
+
+
+
+
+
+</html>
+
+
+{% endblock %}

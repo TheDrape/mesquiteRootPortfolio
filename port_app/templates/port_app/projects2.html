@@ -1,0 +1,220 @@
+{% extends 'port_app/main.html' %}
+
+
+{% block content %}
+
+
+{% load static %}
+
+
+
+
+<!-- <main role="main" class="projects-main"> -->
+
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">Album example</h1>
+        <p class="lead ">Something short and leading about the collection below—its contents, the creator, etc. Make
+            it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+    </div>
+</section>
+<!-- <div class="mesquite-root-side">
+        <img src="{% static 'images/MesquiteRootLogo-01.png' %}" alt="">
+    </div> -->
+
+<div class="album py-5 ">
+    <div class="container">
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'port_app/images/Write_cropped.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <p class="h5">Always THEREapy</p>
+                    <p class="card-text lead">Mobile Thereapy app</p>
+                    <p class=card-text>Technologies used:
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item"><i class="fa fa-car"></i>JavaScript</li>
+                        <li class="list-group-item">Bootstrap</li>
+                    </ul>
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group"> 
+                            <a class="btn btn-sm btn-outline-secondary " target="_blank"
+                            href="https://browner86.github.io/webFrontend2/thereapy/home.html">Visit Always Thereapy </a>
+                        <a class="btn btn-sm btn-outline-secondary " target="_blank"
+                            href="https://github.com/browner86/webFrontend2/tree/main/thereapy">view Github Repo </a>
+
+                        </div>
+                        <!-- <small class="text-muted">9 mins</small> -->
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'port_app/images/pigs.PNG' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Trackmy.farm</h5>
+                    <p class="card-text lead"> Pig estrus tracking application.
+                    </p>
+                    <p class=card-text> Technologies used:
+
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item"> Node.js</li>
+                        <li class="list-group-item">MongoDB</li>
+
+                    </ul>
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item">Svelte</li>
+                        <li class="list-group-item">Bootstrap</li>
+
+                    </ul>
+                    </p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a class="btn btn-sm btn-outline-secondary " target="_blank"
+                                href="https://cs341-pig-ovulation.herokuapp.com/">Visit Always Thereapy </a>
+                            <a class="btn btn-sm btn-outline-secondary " target="_blank"
+                                href="https://github.com/DerrikMilligan/cs341-pig-ovulation">view Github Repo </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'port_app/images/cages/screenshot_cheatsheet.png' %}"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">C.A.G.E.S</h5>
+                    <p class="card-text lead"> SYS-admin training software for air-gapped labs.
+                    </p>
+                    <p class=card-text> Technologies used:
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">Flask</li>
+
+                    </ul>
+                    <ul class="list-group list-group-horizontal ">
+
+                        <li class="list-group-item">Bootstrap</li>
+
+                    </ul>
+
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="{% static 'port_app/images/phpmotors/admin_277_200.png' %}"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">PHP Motors</h5>
+                    <p class="card-text lead"> Web Back-end Project for Brigham Young Univirsity - Idaho
+                    </p>
+                    <p class=card-text> Technologies used:
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item">PHP</li>
+                        <li class="list-group-item">XAMPP</li>
+
+                    </ul>
+                    <ul class="list-group list-group-horizontal ">
+
+                        <li class="list-group-item">MySQL</li>
+                    </ul>
+
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+
+            <div class="card">
+                <img class="card-img-top" src="{% static 'port_app/images/purple/store.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <p class="h5">"Purple Store" Inventory Application</p>
+                    <p class="card-text lead">Android application to track inventory for a convenience store called
+                        "Purple Store" in Quezon City Philippines</p>
+                    <p class=card-text>Technologies used:
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item">Android</li>
+                        <li class="list-group-item">Java</li>
+
+
+                    </ul>
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item">XML</li>
+                        <li class="list-group-item">Firebase</li>
+
+                    </ul>
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <a class="btn btn-sm btn-outline-secondary " target="_blank"
+                                href="https://github.com/rfranu7/CS246Group05/tree/master/PurpleInventoryApplication">view
+                                Github Repo </a>
+                        </div>
+                        <small class="text-muted">2019</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'port_app/images/portfolio_card_img.png' %}"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="h5">MesquiteRoot.com</p>
+                    <p class="card-text lead">My personal portfolio website</p>
+                    <p class=card-text>Technologies used:
+                    <ul class="list-group list-group-horizontal ">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">Django</li>
+
+                    </ul>
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">2021</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+<!-- </main> -->
+
+
+
+
+
+</html>
+
+
+{% endblock %}

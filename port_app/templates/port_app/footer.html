@@ -1,0 +1,13 @@
+{% load static %}
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-dark" style="background-color: #1b263b;">
+  <a class="navbar-brand" href="#"><img src="{% static 'images/MesquiteRootLogo-01.png' %}" alt="Mesquite Root Logo" style="max-height: 50px;"></a>
+
+  
+  <div class="" id="navbarNavAltMarkup" >
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="{% url 'home' %}">Home <span class="sr-only"></span></a>
+      <a class="nav-item nav-link" href="{% url 'bio' %}">Bio</a>
+      <a class="nav-item nav-link" href="{% url 'projects' %}">Projects</a>
+    </div>
+  </div>
+  </nav>
